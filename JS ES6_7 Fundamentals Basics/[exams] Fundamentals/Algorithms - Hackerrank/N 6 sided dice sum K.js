@@ -12,4 +12,4 @@ solve(
     "5 6 3 15"
 );
 
-// https://medium.com/gitpod/debugging-node-js-applications-in-theia-76c94c76f0a1
+// https://www.hackerrank.com/contests/projecteuler/challenges/euler240/problem
