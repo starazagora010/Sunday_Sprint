@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="uiJS.js"></script>
+    <script src="inner\j.js"></script>
+    <link rel="stylesheet" href="css_index2.css">
+    <!--    <script type="text/javascript" href="uiJS.js"></script>-->
+    <script>
+        function enter(elem) {
+            elem.style.backgroundColor = 'lightgreen';
+        }
+
+        function leave(elem) {
+            elem.style.backgroundColor = 'lightblue';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="backgroundTest" onmouseover="ch()" id="fu">
+        Some Text &trade; INTERESTING
+        <br> Some TTTaTTaT &trade;
+        <br> Some Text &trade;
+        <br> eeee Some Text &trade;
+        <br> Some Texst &trade;
+        <br> Some Tssssext &trade;
+    </div>
+    <div onmouseover="enter(this)" onmouseout="leave(this)">
+        Some Text &trade;
+        <br> Some Text &trade;
+        <br> Some Text &trade;
+        <br>
+    </div>
+</body>
+
+</html>

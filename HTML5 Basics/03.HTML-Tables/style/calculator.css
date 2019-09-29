@@ -1,0 +1,42 @@
+table{
+    background: #f3f9fa;
+    border: 1px solid #8df6f4;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px 20px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid #8df6f4;
+
+}
+
+#output,
+button{
+    display: inline-block;
+	background: #f3f9fa;
+	border: none;
+	font-size: 30px;
+	font-family: Consolas,monospace;
+	font-weight: bold;
+	color: #8df6f4;
+	text-shadow: 2px 2px 3px #aaa;
+}
+
+#output{
+    text-align: right;
+    width: 210px;
+}
+
+button{
+    padding: 10px 20px;
+    text-align: center;
+    width: 60px;
+}
+
+#button-0{
+    width: 123px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Problem 4.* Grid component</title>
+    <style>
+        th {
+            background: grey
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="6">Drag a column header and drop it here to group by that column</th>
+            </tr>
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Unit price</th>
+                <th>Quantity per unit</th>
+                <th>Units in stock</th>
+                <th>Discontinued</th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="number" name="" id="pid" min="1">
+                </th>
+                <th>
+                    <input type="text" name="" id="pn">
+                </th>
+                <th>
+                    <input type="number" name="" id="upr" min="0">
+                    <button>
+                        <img src="" alt="" width="20">
+                    </button>
+                </th>
+                <th>
+                    <input type="text" name="" id="qpu">
+                </th>
+                <th>
+                    <input type="number" name="" id="upr" min="0">
+                    <button>
+                        <img src="" alt="" width="20">
+                    </button>
+                </th>
+                <th>
+                    <input type="checkbox" name="" id="discontinued">
+                </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="6">
+                    <!-- buttons or links::recheck the advantages of: input:submit;button;a:link -->
+                    <button>&#8676;</button>
+                    <button>&larr;</button>
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    ...
+                    <button>&rarr;</button>
+                    <button>&#8677;</button>
+                    Page size:
+                    <input type="number" name="" id="" min="5" max="100" step="5"> 335104 items in 33511 pages
+                </th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Chai</td>
+                <td>$18</td>
+                <td>10 boxes x 20 bags</td>
+                <td>39</td>
+                <td>
+                    <input type="checkbox" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chang</td>
+                <td>$19.00</td>
+                <td>24 - 12 oz bottles</td>
+                <td>17</td>
+                <td>
+                    <input type="checkbox" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Aniseed Syrup</td>
+                <td>$10</td>
+                <td>12 - 550 bottles</td>
+                <td>13</td>
+                <td>
+                    <input type="checkbox" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Chef Anton's Cajun Seasoning</td>
+                <td>$22.00</td>
+                <td>46 - 6 za jars</td>
+                <td>53</td>
+                <td>
+                    <input type="checkbox" name="" id="">
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Chef Anton's Gumbo Mix</td>
+                <td>$21.35</td>
+                <td>36 boxes</td>
+                <td>0</td>
+                <td>
+                    <input type="checkbox" name="" id="">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
