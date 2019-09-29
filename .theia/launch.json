@@ -1,0 +1,15 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "type": "node",
+          "request": "launch",
+          "name": "Launch Program",
+          "path": "${workspaceRoot}/Sunday_Sprint/JS ES6_7 Fundamentals Basics/[exams] Fundamentals/quicktest.js",
+          "openDebug": "openOnDebugBreak",
+          "internalConsoleOptions": "openOnSessionStart"
+      }
+  ]
+}
